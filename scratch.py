@@ -32,7 +32,6 @@ class Queue:
         print("Enter Your Email : - ")
         Email = input()
         self.Queue.append([Name,PhoneNumber,Email])
-        print("Updated Customer List : -",self.Queue)
 
     def CreateBill(self,Order):
         Details = self.Queue[0]
